@@ -1,0 +1,38 @@
+{
+  "config": {
+    "class": "Filterer",
+    "args": [],
+    "kwargs": {
+        "functions": [
+            {
+                "fun": "rule_equal",
+                "kwargs": {
+                    "left_key": "value",
+                    "right": 2
+                }
+            }
+        ]
+    },
+    "num_inputs" : 1
+  },
+  "datas": {
+    "basic": {
+      "inputs": [
+        {
+          "doc": "X",
+          "value": 1
+        },
+        {
+          "doc": "Y",
+          "value": 2
+        }
+      ],
+      "outputs": [
+        {
+          "doc": "Y",
+          "value": 2
+        }
+      ]
+    }
+  }
+}

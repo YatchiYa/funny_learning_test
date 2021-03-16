@@ -1,0 +1,32 @@
+{
+    "config": {
+      "class": "Selector",
+      "args": [],
+      "kwargs": {
+        "keys": ["doc"],
+        "drop": 1
+      }
+    },
+    "datas": {
+      "basic": {
+        "inputs": [
+          {
+            "doc": "X",
+            "value": 1
+          },
+          {
+            "doc": "Y",
+            "value": 2
+          }
+        ],
+        "outputs": [
+          {
+            "value": 1
+          },
+          {
+            "value": 2
+          }
+        ]
+      }
+    }
+  }
